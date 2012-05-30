@@ -36,6 +36,11 @@ class Filereader {
 			case 'txt':
 				return 'TEXT FILE';
 				break;
+				
+			case 'jpg':
+				return 'JPG FILE';
+				break;
+				
 			default:
 				return 'UNKNOWN FILENAME';
 		}
